@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "demo@example.com",
+      "password": "demo123",
+      "role": "admin",
+      "name": "Demo Admin",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "email": "manager@example.com",
+      "password": "manager123",
+      "role": "manager",
+      "name": "Demo Manager",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "1234567890",
+      "status": "available",
+      "location": {
+        "lat": 40.7128,
+        "lng": -74.0060
+      },
+      "vehicle": {
+        "type": "truck",
+        "plateNumber": "ABC123"
+      },
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "1",
+      "customerName": "Jane Smith",
+      "customerPhone": "0987654321",
+      "address": "123 Main St",
+      "product": "LPG",
+      "quantity": 1,
+      "amount": 1000,
+      "status": "completed",
+      "driverId": "1",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "completedAt": "2024-01-01T01:00:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "userId": "1",
+      "title": "Welcome",
+      "message": "Welcome to Aight Gas Delivery System",
+      "type": "info",
+      "read": false,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ]
+} 
